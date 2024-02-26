@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color:rgb(171, 171, 231);
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    margin-left: 1100px;
+    position: absolute;
+}
+.form-control{
+    width: 150px;
+    margin-left: 930px;
+    position: absolute;
+}
