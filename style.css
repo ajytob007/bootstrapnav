@@ -1,14 +1,131 @@
-.container-fluid{
-    background-color:rgb(171, 171, 231);
-    padding: 10px;
-    border-radius: 5px;
+ 
+ .collapse ul{
+    margin-left: auto;
+    gap: 60px;
+ }
+ .fa-brands i{
+   color: blue;
+   z-index:4;
+   font-size: larger;
+ }
+ .bx{
+   z-index: -3;
+ }
+ 
+ .navbar-brand{
+    margin-left: 50px;
+    font-size:xx-large ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+ }
+ .navbar-nav a:hover{
+    background-color:rgb(173, 172, 170);
+    border-radius: 20px;
+
+ }
+ img{
+    height: 250px;
+    width: 250px;
+    top: 100px;
+    border-radius: 30px;
+    margin-left: 60px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+
+ }
+ .main .images-col .pic{
+   height:250px;
+   width: 250px;
+   border: 10px solid black;
+   cursor: pointer;
+ }
+  .main .images-col .pic img{
+   height: 100%;
+   width:100%;
+   object-fit:cover ;
+   transition: 2s linear;
+ }
+ .row2{
+   top: 60px;
+   position: relative;
+ }
+ .row3{
+   top: 120px;
+   position: relative;
+ }
+ .container2{
+   top: 200px;
+ }
+ .images-col-md-6 img:hover{
+   border-radius: 10px;
+   height: 240px;
+   width: 240px;
+   
+
+   
+ }
+ .form-control{
+   margin-left: 0px;
+   position:relative ;
+   z-index: 3;
+   width: 200px;
+   top: 70px;
+ }
+ .btn {
+   width: 70px;
+   margin-left: 30px;
+   top: 70px;
+   position: relative;
+   z-index: 3;
+ }
+ .btn2{
+   width: 250px;
+   position:relative ;
+   top: 70px;
+   z-index: 3;
+   margin-left: 100px;
+   color:rgb(247, 250, 247);
+   background-color:rgb(61, 61, 202);
+   height: 30px;
+   border-radius: 10px;
+   text-align: center;
+   font-size:large;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
 }
-.btn{
-    margin-left: 1100px;
-    position: absolute;
-}
-.form-control{
-    width: 150px;
-    margin-left: 930px;
-    position: absolute;
-}
+
+ 
+ .name {
+    text-align: center;
+    top: 200px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .main{
+    height: 1100px;
+    width: fill;
+    position: relative;
+    background-color: rgb(208, 214, 203);
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    
+ }
+ .pagination{
+   margin-left: 500px;
+   bottom: 20px;
+   position: absolute;
+ }
+ .pagination li a:hover{
+   background-color: rgb(36, 49, 49);
+ }
+ .social-media a{ 
+    color: brown;
+    text-align: center;
+    position: fixed;
+ }
+ 
