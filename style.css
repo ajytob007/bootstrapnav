@@ -15,14 +15,11 @@
  .navbar-brand{
     margin-left: 50px;
     font-size:xx-large ;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;  
  }
  .navbar-nav a:hover{
-    background-color:rgb(173, 172, 170);
+    background-color:rgb(139, 139, 138);
     border-radius: 20px;
-
  }
  img{
     height: 250px;
@@ -35,13 +32,13 @@
     display: inline-block;
 
  }
- .main .images-col .pic{
+ .main .images .pic{
    height:250px;
    width: 250px;
    border: 10px solid black;
    cursor: pointer;
  }
-  .main .images-col .pic img{
+  .main .images img{
    height: 100%;
    width:100%;
    object-fit:cover ;
@@ -58,13 +55,10 @@
  .container2{
    top: 200px;
  }
- .images-col-md-6 img:hover{
+img:hover{
    border-radius: 10px;
    height: 240px;
    width: 240px;
-   
-
-   
  }
  .form-control{
    margin-left: 0px;
@@ -73,7 +67,7 @@
    width: 200px;
    top: 70px;
  }
- .btn {
+ .btn{
    width: 70px;
    margin-left: 30px;
    top: 70px;
@@ -93,12 +87,8 @@
    text-align: center;
    font-size:large;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-}
-
- 
- .name {
+} 
+ .name{
     text-align: center;
     top: 200px;
     position: relative;
@@ -123,9 +113,5 @@
  .pagination li a:hover{
    background-color: rgb(36, 49, 49);
  }
- .social-media a{ 
-    color: brown;
-    text-align: center;
-    position: fixed;
- }
+ 
  
