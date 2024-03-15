@@ -1,4 +1,4 @@
- 
+/*  
  .collapse ul{
     margin-left: auto;
     gap: 60px;
@@ -21,10 +21,11 @@
     background-color:rgb(139, 139, 138);
     border-radius: 20px;
  }
+ 
  img{
     height: 250px;
     width: 250px;
-    top: 100px;
+    top: 200px;
     border-radius: 30px;
     margin-left: 60px;
     position: relative;
@@ -32,54 +33,67 @@
     display: inline-block;
 
  }
- .main .images .pic{
+ .nav-item1{
+  background-color: rgb(124, 124, 218);
+  border-radius: 22px;
+
+ }
+ .footer .pix h5{
+  top: 80px;
+  position: relative;
+ }
+ .home1{
+  inline-size: none;
+ }
+ .container .row col{
    height:250px;
    width: 250px;
-   border: 10px solid black;
+   border: 10px  solid black;
    cursor: pointer;
  }
-  .main .images img{
+   .container.row img{
    height: 100%;
    width:100%;
    object-fit:cover ;
-   transition: 2s linear;
  }
- .row2{
+
+ .row-8 {
    top: 60px;
-   position: relative;
+   
  }
- .row3{
+ .row-9{
    top: 120px;
-   position: relative;
+  
  }
  .container2{
    top: 200px;
  }
 img:hover{
-   border-radius: 10px;
+   border-radius: 5px;
    height: 240px;
    width: 240px;
+   border-color:20px blueviolet;
  }
- .form-control{
-   margin-left: 0px;
-   position:relative ;
+ .row .form-control{
+   margin-left: 200px;
+   position:relative;
    z-index: 3;
-   width: 200px;
+   width: 250px;
    top: 70px;
  }
- .btn{
+ .row .btn{
    width: 70px;
-   margin-left: 30px;
+   margin-left: 390px;
    top: 70px;
    position: relative;
    z-index: 3;
  }
  .btn2{
-   width: 250px;
+   width: 100px;
    position:relative ;
-   top: 70px;
+   top: 0px;
    z-index: 3;
-   margin-left: 100px;
+   margin-left:200px;
    color:rgb(247, 250, 247);
    background-color:rgb(61, 61, 202);
    height: 30px;
@@ -95,10 +109,11 @@ img:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  
- .main{
-    height: 1100px;
-    width: fill;
-    position: relative;
+ .container{
+    top: 10px;
+    height: 1500px;
+    margin-left: center;
+    position:relative;
     background-color: rgb(208, 214, 203);
     margin: 10px;
     border-radius: 20px;
@@ -106,12 +121,79 @@ img:hover{
     
  }
  .pagination{
-   margin-left: 500px;
-   bottom: 20px;
-   position: absolute;
+  margin-left: 50px;
+   text-align: center;
+   top:270px ;
+   position: relative;
  }
  .pagination li a:hover{
-   background-color: rgb(36, 49, 49);
+   background-color: rgb(40, 68, 68);
+   border-radius: 20px;
+
+ }
+ /*
+ .social-media a{
+  z-index: 3;
+  color: blue;
+ }
+ */
+ /* .footer{
+    background-color: rgb(2, 2, 19);
+    margin-left:center;
+    height: 300px;
+    width: fill;
+    position: relative;
+    border-radius:  10px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    position: relative;
+ }
+ .footer h4{
+  margin-left: 40px;
+  top: 40px;
+  position: relative;
+
+ }
+ .footer .pix{
+  text-align: center;
+  color:rgb(97, 105, 51);
+
+ }
+ .footer h6{
+  margin-left: 100px;
+  top:80px ;
+  bottom: top;
+  position: relative;
+ }
+ .row-2{
+  top:270px;
+  position: relative;
+ }
+ .social{
+  z-index: 3;
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  bottom: 140px;
+  position: relative;
+ }
+ .social a:hover{
+  background: gray;
+  border-radius: 20px;
+  
+ }
+ /* making responsive*/
+ /* @media(){
+  .btn2{
+    top: 400px;
+    position: relative;
+  }
+
+
  }
  
  
+  img:hover{
+    border-radius: 30px;
+  }  */
